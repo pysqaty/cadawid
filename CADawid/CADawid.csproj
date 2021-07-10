@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D659B913-E964-4915-8969-A0058E813A28}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CADawid</RootNamespace>
+    <AssemblyName>CADawid</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Wpf.Interop.DirectX, Version=0.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=AMD64">
+      <HintPath>..\packages\Microsoft.Wpf.Interop.DirectX-x64.0.9.0-beta-22856\lib\net45\Microsoft.Wpf.Interop.DirectX.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpDX.4.2.0\lib\net45\SharpDX.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.D3DCompiler, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpDX.D3DCompiler.4.2.0\lib\net45\SharpDX.D3DCompiler.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct2D1, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpDX.Direct2D1.4.2.0\lib\net45\SharpDX.Direct2D1.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct3D11, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpDX.Direct3D11.4.2.0\lib\net45\SharpDX.Direct3D11.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct3D9, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpDX.Direct3D9.4.2.0\lib\net45\SharpDX.Direct3D9.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.DXGI, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpDX.DXGI.4.2.0\lib\net45\SharpDX.DXGI.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Mathematics, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpDX.Mathematics.4.2.0\lib\net45\SharpDX.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Xceed.Wpf.AvalonDock, Version=3.8.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.8.1\lib\net40\Xceed.Wpf.AvalonDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Aero, Version=3.8.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.8.1\lib\net40\Xceed.Wpf.AvalonDock.Themes.Aero.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Metro, Version=3.8.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.8.1\lib\net40\Xceed.Wpf.AvalonDock.Themes.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.VS2010, Version=3.8.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.8.1\lib\net40\Xceed.Wpf.AvalonDock.Themes.VS2010.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.Toolkit, Version=3.8.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.8.1\lib\net40\Xceed.Wpf.Toolkit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="DxModule\DxPatchConstantBuffer.cs" />
+    <Compile Include="DxModule\DxPointConstantBuffer.cs" />
+    <Compile Include="DxModule\DxShaderType.cs" />
+    <Compile Include="Enums\Mode.cs" />
+    <Compile Include="Model\Base\CurveVertex.cs" />
+    <Compile Include="Model\Base\PatchVertex.cs" />
+    <Compile Include="Model\IPointBased.cs" />
+    <Compile Include="Model\ObjectsStaticFactory.cs" />
+    <Compile Include="Model\Surfaces\BicubicBezierPatchC0.cs" />
+    <Compile Include="Model\IGeometryObject.cs" />
+    <Compile Include="Model\Curves\ICurve.cs" />
+    <Compile Include="Model\Curves\BezierCurveC2.cs" />
+    <Compile Include="Model\Curves\BezierCurveC0.cs" />
+    <Compile Include="Model\Curves\InterpolationBezierCurveC2.cs" />
+    <Compile Include="Model\Curves\Curve.cs" />
+    <Compile Include="Model\Curves\Cursor.cs" />
+    <Compile Include="Model\Enums\TransformCenter.cs" />
+    <Compile Include="Model\Enums\GeometryType.cs" />
+    <Compile Include="Model\Base\Index.cs" />
+    <Compile Include="Model\Base\ITransformable.cs" />
+    <Compile Include="Model\Surfaces\BicubicBsplinePatchC2.cs" />
+    <Compile Include="Model\Surfaces\BicubicPatch.cs" />
+    <Compile Include="Model\Surfaces\GregoryPatch.cs" />
+    <Compile Include="Model\Surfaces\Grid.cs" />
+    <Compile Include="Model\Surfaces\ISurface.cs" />
+    <Compile Include="Model\Point.cs" />
+    <Compile Include="Model\Curves\PolygonalChain.cs" />
+    <Compile Include="Model\SimpleModels\Segment.cs" />
+    <Compile Include="Model\Surfaces\Surface.cs" />
+    <Compile Include="Model\SimpleModels\Vectors.cs" />
+    <Compile Include="Serialization\Model\Curve\PointRef.cs" />
+    <Compile Include="Serialization\Model\SerializationVector3.cs" />
+    <Compile Include="Serialization\Model\Surface\BicubicBezierPatchC0SerializationModel.cs" />
+    <Compile Include="Serialization\Model\Surface\BicubicBsplinePatchC2SerializationModel.cs" />
+    <Compile Include="Serialization\Model\Curve\BezierCurveC0SerializationModel.cs" />
+    <Compile Include="Serialization\Model\Curve\BezierCurveC2SerializationModel.cs" />
+    <Compile Include="Serialization\Model\Curve\CurveSerializationModel.cs" />
+    <Compile Include="Serialization\Model\Curve\InterpolationBezierCurveC2SerializationModel.cs" />
+    <Compile Include="Serialization\Model\Surface\GridPointRef.cs" />
+    <Compile Include="Serialization\Model\Surface\PatchSerializationModel.cs" />
+    <Compile Include="Serialization\Model\Simple\PointSerializationModel.cs" />
+    <Compile Include="Serialization\Model\SerializationModel.cs" />
+    <Compile Include="Serialization\Model\SerializationScene.cs" />
+    <Compile Include="Serialization\Model\Simple\TorusSerializationModel.cs" />
+    <Compile Include="Serialization\Model\Surface\SurfaceCylinderDirection.cs" />
+    <Compile Include="Serialization\SceneSerializer.cs" />
+    <Compile Include="Utils\Algorithm.cs" />
+    <Compile Include="Utils\BasisConverter.cs" />
+    <Compile Include="Utils\Converters\EnumMatchToBooleanConverter.cs" />
+    <Compile Include="Utils\Converters\BooleanToVisibilityConverter.cs" />
+    <Compile Include="Utils\MathExt.cs" />
+    <Compile Include="Utils\MyVector3.cs" />
+    <Compile Include="ViewModel\BezierCurveC0ViewModel.cs" />
+    <Compile Include="ViewModel\BezierCurveC2ViewModel.cs" />
+    <Compile Include="ViewModel\GregoryPatchViewModel.cs" />
+    <Compile Include="ViewModel\PatchViewModel.cs" />
+    <Compile Include="ViewModel\IGeometryAddPanel.cs" />
+    <Compile Include="ViewModel\InterpolationBezierCurveC2ViewModel.cs" />
+    <Compile Include="ViewModel\PointViewModel.cs" />
+    <Compile Include="View\AddPanels\BicubicBezierPatchC0AddPanel.xaml.cs">
+      <DependentUpon>BicubicBezierPatchC0AddPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\BezierCurveC0Panel.xaml.cs">
+      <DependentUpon>BezierCurveC0Panel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\BezierCurveC2Panel.xaml.cs">
+      <DependentUpon>BezierCurveC2Panel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\BicubicBezierPatchC0Panel.xaml.cs">
+      <DependentUpon>BicubicBezierPatchC0Panel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\GregoryPatchPanel.xaml.cs">
+      <DependentUpon>GregoryPatchPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\InterpolationBezierCurveC2Panel.xaml.cs">
+      <DependentUpon>InterpolationBezierCurveC2Panel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TorusPanel.xaml.cs">
+      <DependentUpon>TorusPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TransformPanel.xaml.cs">
+      <DependentUpon>TransformPanel.xaml</DependentUpon>
+    </Compile>
+    <Page Include="View\AddPanels\BicubicBezierPatchC0AddPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\BezierCurveC0Panel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\BezierCurveC2Panel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\BicubicBezierPatchC0Panel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\GregoryPatchPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\InterpolationBezierCurveC2Panel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DxModule\DxCamera.cs" />
+    <Compile Include="DxModule\DxConstantBuffer.cs" />
+    <Compile Include="DxModule\DxRenderer.cs" />
+    <Compile Include="ViewModel\IGeometryPanel.cs" />
+    <Compile Include="ViewModel\GeometryViewModel.cs" />
+    <Compile Include="ViewModel\TorusViewModel.cs" />
+    <Compile Include="View\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="View\TorusPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\TransformPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\Base\Edge.cs" />
+    <Compile Include="Model\Base\Geometry.cs" />
+    <Compile Include="Model\GeometryObject.cs" />
+    <Compile Include="Model\SimpleModels\Plane.cs" />
+    <Compile Include="Model\Scene.cs" />
+    <Compile Include="Model\SimpleModels\Torus.cs" />
+    <Compile Include="Model\Base\Vertex.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Media\Icons\padlock-icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Media\Icons\unlocked-padlock-icon.png" />
+    <Content Include="Shader\basicShader.fx" />
+    <Content Include="Shader\bsplinePatchShader.fx" />
+    <Content Include="Shader\crossShader.fx" />
+    <Content Include="Shader\curveShader.fx" />
+    <Content Include="Shader\gregoryPatchShader.fx" />
+    <Content Include="Shader\patchShader.fx" />
+    <Content Include="Shader\pointShader.fx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

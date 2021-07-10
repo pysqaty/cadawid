@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://mini.pw.edu.pl/mg1">
+    <Point Name="Point 1">
+        <Position X="-3.5715611" Y="-0.57026243" Z="0"/>
+    </Point>
+    <Point Name="Point 2">
+        <Position X="-3.57446" Y="-0.52045178" Z="0.040000003"/>
+    </Point>
+    <Point Name="Point 3">
+        <Position X="-3.57446" Y="-0.52045178" Z="-0.040000003"/>
+    </Point>
+    <Point Name="Point 4">
+        <Position X="-3.5802548" Y="-0.42083341" Z="-0.040000003"/>
+    </Point>
+    <Point Name="Point 5">
+        <Position X="-3.5802548" Y="-0.42083341" Z="0.040000003"/>
+    </Point>
+    <Point Name="Point 6">
+        <Position X="-3.5831513" Y="-0.37102115" Z="0"/>
+    </Point>
+    <Point Name="Point 7">
+        <Position X="-3.5715611" Y="-0.57026243" Z="0"/>
+    </Point>
+    <Point Name="Point 8">
+        <Position X="-3.57446" Y="-0.52045178" Z="0.040000003"/>
+    </Point>
+    <Point Name="Point 9">
+        <Position X="-3.57446" Y="-0.52045178" Z="-0.040000003"/>
+    </Point>
+    <Point Name="Point 10">
+        <Position X="-3.5802548" Y="-0.42083341" Z="-0.040000003"/>
+    </Point>
+    <Point Name="Point 11">
+        <Position X="-3.5802548" Y="-0.42083341" Z="0.040000003"/>
+    </Point>
+    <Point Name="Point 12">
+        <Position X="-3.5831513" Y="-0.37102115" Z="0"/>
+    </Point>
+    <Point Name="Point 13">
+        <Position X="-2.6326461" Y="-2.6504085" Z="2.3841864e-09"/>
+    </Point>
+    <Point Name="Point 14">
+        <Position X="-2.8329971" Y="-1.3252025" Z="0.18706147"/>
+    </Point>
+    <Point Name="Point 15">
+        <Position X="-3.2337036" Y="1.3252077" Z="0.18706147"/>
+    </Point>
+    <Point Name="Point 16">
+        <Position X="-3.4340534" Y="2.6504183" Z="-4.0531159e-08"/>
+    </Point>
+    <Point Name="Point 17">
+        <Position X="-3.2337015" Y="1.3252071" Z="-0.18706147"/>
+    </Point>
+    <Point Name="Point 18">
+        <Position X="-2.8329968" Y="-1.3252028" Z="-0.18706144"/>
+    </Point>
+    <Point Name="Point 19">
+        <Position X="-1.7500088" Y="-0.85500222" Z="1.5857321e-08"/>
+    </Point>
+    <Point Name="Point 20">
+        <Position X="-1.7500098" Y="-0.31500193" Z="0.16367882"/>
+    </Point>
+    <Point Name="Point 21">
+        <Position X="-1.7500094" Y="0.76500541" Z="0.16367882"/>
+    </Point>
+    <Point Name="Point 22">
+        <Position X="-1.7500134" Y="1.3050104" Z="-2.1693612e-08"/>
+    </Point>
+    <Point Name="Point 23">
+        <Position X="-1.7500085" Y="0.76500374" Z="-0.16367877"/>
+    </Point>
+    <Point Name="Point 24">
+        <Position X="-1.7500091" Y="-0.31500182" Z="-0.16367875"/>
+    </Point>
+    <Point Name="Point 25">
+        <Position X="-1.1666712" Y="-0.27999941" Z="1.5857321e-08"/>
+    </Point>
+    <Point Name="Point 26">
+        <Position X="-1.166671" Y="1.0728836e-06" Z="0.16367882"/>
+    </Point>
+    <Point Name="Point 27">
+        <Position X="-1.1666725" Y="0.56000382" Z="0.16367882"/>
+    </Point>
+    <Point Name="Point 28">
+        <Position X="-1.1666716" Y="0.84000409" Z="-2.1693609e-08"/>
+    </Point>
+    <Point Name="Point 29">
+        <Position X="-1.1666725" Y="0.56000382" Z="-0.16367877"/>
+    </Point>
+    <Point Name="Point 30">
+        <Position X="-1.1666718" Y="4.6566129e-08" Z="-0.16367875"/>
+    </Point>
+    <Point Name="Point 31">
+        <Position X="-0.58333677" Y="-0.24500081" Z="1.5857321e-08"/>
+    </Point>
+    <Point Name="Point 32">
+        <Position X="-0.5833382" Y="0.035000019" Z="0.16367882"/>
+    </Point>
+    <Point Name="Point 33">
+        <Position X="-0.58333665" Y="0.59500223" Z="0.16367882"/>
+    </Point>
+    <Point Name="Point 34">
+        <Position X="-0.58333606" Y="0.87500435" Z="-2.1693609e-08"/>
+    </Point>
+    <Point Name="Point 35">
+        <Position X="-0.58333629" Y="0.59500182" Z="-0.16367877"/>
+    </Point>
+    <Point Name="Point 36">
+        <Position X="-0.58333832" Y="0.034999855" Z="-0.16367875"/>
+    </Point>
+    <Point Name="Point 37">
+        <Position X="0" Y="-0.47142845" Z="2.6428864e-08"/>
+    </Point>
+    <Point Name="Point 38">
+        <Position X="0" Y="-0.12857132" Z="0.272798"/>
+    </Point>
+    <Point Name="Point 39">
+        <Position X="0" Y="0.55714303" Z="0.272798"/>
+    </Point>
+    <Point Name="Point 40">
+        <Position X="-1.1920929e-07" Y="0.90000015" Z="-3.6156013e-08"/>
+    </Point>
+    <Point Name="Point 41">
+        <Position X="-1.1920929e-07" Y="0.55714285" Z="-0.27279791"/>
+    </Point>
+    <Point Name="Point 42">
+        <Position X="0" Y="-0.1285716" Z="-0.27279788"/>
+    </Point>
+    <Point Name="Point 43">
+        <Position X="0.689744" Y="-0.99999958" Z="9.4098072e-09"/>
+    </Point>
+    <Point Name="Point 44">
+        <Position X="0.689744" Y="-0.49999961" Z="0.34099749"/>
+    </Point>
+    <Point Name="Point 45">
+        <Position X="0.68974388" Y="0.50000054" Z="0.34099749"/>
+    </Point>
+    <Point Name="Point 46">
+        <Position X="0.68974388" Y="1.0000006" Z="-6.8821286e-08"/>
+    </Point>
+    <Point Name="Point 47">
+        <Position X="0.68974388" Y="0.50000018" Z="-0.34099749"/>
+    </Point>
+    <Point Name="Point 48">
+        <Position X="0.689744" Y="-0.49999994" Z="-0.34099737"/>
+    </Point>
+    <Point Name="Point 49">
+        <Position X="1.7794873" Y="-1.4999996" Z="9.9341086e-09"/>
+    </Point>
+    <Point Name="Point 50">
+        <Position X="1.7794873" Y="-0.99999958" Z="0.62353826"/>
+    </Point>
+    <Point Name="Point 51">
+        <Position X="1.7794873" Y="1.0000002" Z="0.62353826"/>
+    </Point>
+    <Point Name="Point 52">
+        <Position X="1.7794873" Y="1.5000002" Z="-1.6887982e-07"/>
+    </Point>
+    <Point Name="Point 53">
+        <Position X="1.7794873" Y="0.99999988" Z="-0.62353814"/>
+    </Point>
+    <Point Name="Point 54">
+        <Position X="1.7794873" Y="-1.0000005" Z="-0.62353808"/>
+    </Point>
+    <Point Name="Point 55">
+        <Position X="2.869231" Y="-1.9999995" Z="9.9341086e-09"/>
+    </Point>
+    <Point Name="Point 56">
+        <Position X="2.869231" Y="-0.99999976" Z="0.77942282"/>
+    </Point>
+    <Point Name="Point 57">
+        <Position X="2.869231" Y="1.0000004" Z="0.77942282"/>
+    </Point>
+    <Point Name="Point 58">
+        <Position X="2.869231" Y="2.0000002" Z="-1.6887982e-07"/>
+    </Point>
+    <Point Name="Point 59">
+        <Position X="2.869231" Y="1" Z="-0.7794227"/>
+    </Point>
+    <Point Name="Point 60">
+        <Position X="2.869231" Y="-1.0000005" Z="-0.77942264"/>
+    </Point>
+    <Point Name="Point 61">
+        <Position X="3.9589744" Y="-1.5999997" Z="9.9341086e-09"/>
+    </Point>
+    <Point Name="Point 62">
+        <Position X="3.9589739" Y="-0.99999952" Z="0.77942282"/>
+    </Point>
+    <Point Name="Point 63">
+        <Position X="3.9589744" Y="1.0000004" Z="0.77942282"/>
+    </Point>
+    <Point Name="Point 64">
+        <Position X="3.9589739" Y="1.6000003" Z="-1.6887982e-07"/>
+    </Point>
+    <Point Name="Point 65">
+        <Position X="3.9589744" Y="1" Z="-0.7794227"/>
+    </Point>
+    <Point Name="Point 66">
+        <Position X="3.9589744" Y="-1.0000004" Z="-0.77942264"/>
+    </Point>
+    <Point Name="Point 67">
+        <Position X="5.0487189" Y="0" Z="0"/>
+    </Point>
+    <Point Name="Point 68">
+        <Position X="5.0487189" Y="0" Z="0"/>
+    </Point>
+    <Point Name="Point 69">
+        <Position X="5.0487189" Y="0" Z="0"/>
+    </Point>
+    <Point Name="Point 70">
+        <Position X="5.0487189" Y="0" Z="0"/>
+    </Point>
+    <Point Name="Point 71">
+        <Position X="5.0487189" Y="0" Z="0"/>
+    </Point>
+    <Point Name="Point 72">
+        <Position X="5.0487189" Y="0" Z="0"/>
+    </Point>
+    <Point Name="Point 73">
+        <Position X="6.5999999" Y="0" Z="0"/>
+    </Point>
+    <Point Name="Point 74">
+        <Position X="5.0499997" Y="0" Z="0"/>
+    </Point>
+    <Point Name="Point 75">
+        <Position X="5.0499997" Y="0" Z="0"/>
+    </Point>
+    <Point Name="Point 76">
+        <Position X="5.0499997" Y="0" Z="0"/>
+    </Point>
+    <Point Name="Point 77">
+        <Position X="5.0499997" Y="0" Z="0"/>
+    </Point>
+    <Point Name="Point 78">
+        <Position X="5.0499997" Y="0" Z="0"/>
+    </Point>
+    <PatchC2 Name="Bezier C2 Surface 1 - Base 1" ShowControlPolygon="false" WrapDirection="None" RowSlices="9" ColumnSlices="9">
+        <Points>
+            <PointRef Name="Point 1" Row="0" Column="0"/>
+            <PointRef Name="Point 2" Row="0" Column="1"/>
+            <PointRef Name="Point 3" Row="0" Column="2"/>
+            <PointRef Name="Point 4" Row="0" Column="3"/>
+            <PointRef Name="Point 5" Row="0" Column="4"/>
+            <PointRef Name="Point 6" Row="0" Column="5"/>
+            <PointRef Name="Point 1" Row="0" Column="6"/>
+            <PointRef Name="Point 2" Row="0" Column="7"/>
+            <PointRef Name="Point 3" Row="0" Column="8"/>
+            <PointRef Name="Point 7" Row="1" Column="0"/>
+            <PointRef Name="Point 8" Row="1" Column="1"/>
+            <PointRef Name="Point 9" Row="1" Column="2"/>
+            <PointRef Name="Point 10" Row="1" Column="3"/>
+            <PointRef Name="Point 11" Row="1" Column="4"/>
+            <PointRef Name="Point 12" Row="1" Column="5"/>
+            <PointRef Name="Point 7" Row="1" Column="6"/>
+            <PointRef Name="Point 8" Row="1" Column="7"/>
+            <PointRef Name="Point 9" Row="1" Column="8"/>
+            <PointRef Name="Point 13" Row="2" Column="0"/>
+            <PointRef Name="Point 14" Row="2" Column="1"/>
+            <PointRef Name="Point 15" Row="2" Column="2"/>
+            <PointRef Name="Point 16" Row="2" Column="3"/>
+            <PointRef Name="Point 17" Row="2" Column="4"/>
+            <PointRef Name="Point 18" Row="2" Column="5"/>
+            <PointRef Name="Point 13" Row="2" Column="6"/>
+            <PointRef Name="Point 14" Row="2" Column="7"/>
+            <PointRef Name="Point 15" Row="2" Column="8"/>
+            <PointRef Name="Point 19" Row="3" Column="0"/>
+            <PointRef Name="Point 20" Row="3" Column="1"/>
+            <PointRef Name="Point 21" Row="3" Column="2"/>
+            <PointRef Name="Point 22" Row="3" Column="3"/>
+            <PointRef Name="Point 23" Row="3" Column="4"/>
+            <PointRef Name="Point 24" Row="3" Column="5"/>
+            <PointRef Name="Point 19" Row="3" Column="6"/>
+            <PointRef Name="Point 20" Row="3" Column="7"/>
+            <PointRef Name="Point 21" Row="3" Column="8"/>
+            <PointRef Name="Point 25" Row="4" Column="0"/>
+            <PointRef Name="Point 26" Row="4" Column="1"/>
+            <PointRef Name="Point 27" Row="4" Column="2"/>
+            <PointRef Name="Point 28" Row="4" Column="3"/>
+            <PointRef Name="Point 29" Row="4" Column="4"/>
+            <PointRef Name="Point 30" Row="4" Column="5"/>
+            <PointRef Name="Point 25" Row="4" Column="6"/>
+            <PointRef Name="Point 26" Row="4" Column="7"/>
+            <PointRef Name="Point 27" Row="4" Column="8"/>
+            <PointRef Name="Point 31" Row="5" Column="0"/>
+            <PointRef Name="Point 32" Row="5" Column="1"/>
+            <PointRef Name="Point 33" Row="5" Column="2"/>
+            <PointRef Name="Point 34" Row="5" Column="3"/>
+            <PointRef Name="Point 35" Row="5" Column="4"/>
+            <PointRef Name="Point 36" Row="5" Column="5"/>
+            <PointRef Name="Point 31" Row="5" Column="6"/>
+            <PointRef Name="Point 32" Row="5" Column="7"/>
+            <PointRef Name="Point 33" Row="5" Column="8"/>
+            <PointRef Name="Point 37" Row="6" Column="0"/>
+            <PointRef Name="Point 38" Row="6" Column="1"/>
+            <PointRef Name="Point 39" Row="6" Column="2"/>
+            <PointRef Name="Point 40" Row="6" Column="3"/>
+            <PointRef Name="Point 41" Row="6" Column="4"/>
+            <PointRef Name="Point 42" Row="6" Column="5"/>
+            <PointRef Name="Point 37" Row="6" Column="6"/>
+            <PointRef Name="Point 38" Row="6" Column="7"/>
+            <PointRef Name="Point 39" Row="6" Column="8"/>
+            <PointRef Name="Point 43" Row="7" Column="0"/>
+            <PointRef Name="Point 44" Row="7" Column="1"/>
+            <PointRef Name="Point 45" Row="7" Column="2"/>
+            <PointRef Name="Point 46" Row="7" Column="3"/>
+            <PointRef Name="Point 47" Row="7" Column="4"/>
+            <PointRef Name="Point 48" Row="7" Column="5"/>
+            <PointRef Name="Point 43" Row="7" Column="6"/>
+            <PointRef Name="Point 44" Row="7" Column="7"/>
+            <PointRef Name="Point 45" Row="7" Column="8"/>
+            <PointRef Name="Point 49" Row="8" Column="0"/>
+            <PointRef Name="Point 50" Row="8" Column="1"/>
+            <PointRef Name="Point 51" Row="8" Column="2"/>
+            <PointRef Name="Point 52" Row="8" Column="3"/>
+            <PointRef Name="Point 53" Row="8" Column="4"/>
+            <PointRef Name="Point 54" Row="8" Column="5"/>
+            <PointRef Name="Point 49" Row="8" Column="6"/>
+            <PointRef Name="Point 50" Row="8" Column="7"/>
+            <PointRef Name="Point 51" Row="8" Column="8"/>
+            <PointRef Name="Point 55" Row="9" Column="0"/>
+            <PointRef Name="Point 56" Row="9" Column="1"/>
+            <PointRef Name="Point 57" Row="9" Column="2"/>
+            <PointRef Name="Point 58" Row="9" Column="3"/>
+            <PointRef Name="Point 59" Row="9" Column="4"/>
+            <PointRef Name="Point 60" Row="9" Column="5"/>
+            <PointRef Name="Point 55" Row="9" Column="6"/>
+            <PointRef Name="Point 56" Row="9" Column="7"/>
+            <PointRef Name="Point 57" Row="9" Column="8"/>
+            <PointRef Name="Point 61" Row="10" Column="0"/>
+            <PointRef Name="Point 62" Row="10" Column="1"/>
+            <PointRef Name="Point 63" Row="10" Column="2"/>
+            <PointRef Name="Point 64" Row="10" Column="3"/>
+            <PointRef Name="Point 65" Row="10" Column="4"/>
+            <PointRef Name="Point 66" Row="10" Column="5"/>
+            <PointRef Name="Point 61" Row="10" Column="6"/>
+            <PointRef Name="Point 62" Row="10" Column="7"/>
+            <PointRef Name="Point 63" Row="10" Column="8"/>
+            <PointRef Name="Point 67" Row="11" Column="0"/>
+            <PointRef Name="Point 68" Row="11" Column="1"/>
+            <PointRef Name="Point 69" Row="11" Column="2"/>
+            <PointRef Name="Point 70" Row="11" Column="3"/>
+            <PointRef Name="Point 71" Row="11" Column="4"/>
+            <PointRef Name="Point 72" Row="11" Column="5"/>
+            <PointRef Name="Point 67" Row="11" Column="6"/>
+            <PointRef Name="Point 68" Row="11" Column="7"/>
+            <PointRef Name="Point 69" Row="11" Column="8"/>
+            <PointRef Name="Point 73" Row="12" Column="0"/>
+            <PointRef Name="Point 74" Row="12" Column="1"/>
+            <PointRef Name="Point 75" Row="12" Column="2"/>
+            <PointRef Name="Point 76" Row="12" Column="3"/>
+            <PointRef Name="Point 77" Row="12" Column="4"/>
+            <PointRef Name="Point 78" Row="12" Column="5"/>
+            <PointRef Name="Point 73" Row="12" Column="6"/>
+            <PointRef Name="Point 74" Row="12" Column="7"/>
+            <PointRef Name="Point 75" Row="12" Column="8"/>
+        </Points>
+    </PatchC2>
+    <Point Name="Dummy point">
+        <Position X="71.827057" Y="-48.720673" Z="-38.447689"/>
+    </Point>
+    <Point Name="Point 317">
+        <Position X="1.99438" Y="-1.7207501" Z="0.39807364"/>
+    </Point>
+    <Point Name="Point 318">
+        <Position X="2.0902467" Y="-1.6565896" Z="0.38450268"/>
+    </Point>
+    <Point Name="Point 319">
+        <Position X="1.5729818" Y="-1.5237038" Z="0.20243746"/>
+    </Point>
+    <Point Name="Point 320">
+        <Position X="1.6595995" Y="-1.4921987" Z="0.12281191"/>
+    </Point>
+    <Point Name="Point 321">
+        <Position X="1.8729366" Y="-1.6641858" Z="0.17202199"/>
+    </Point>
+    <Point Name="Point 322">
+        <Position X="2.0824778" Y="-1.1119125" Z="-0.35852087"/>
+    </Point>
+    <Point Name="Point 323">
+        <Position X="2.310492" Y="-1.0430464" Z="-0.3154543"/>
+    </Point>
+    <Point Name="Point 324">
+        <Position X="1.7932274" Y="-0.84566581" Z="-0.4243027"/>
+    </Point>
+    <Point Name="Point 325">
+        <Position X="1.7476972" Y="-0.78844506" Z="-0.51140219"/>
+    </Point>
+    <Point Name="Point 326">
+        <Position X="1.9610342" Y="-0.96511436" Z="-0.53948629"/>
+    </Point>
+    <Point Name="Point 327">
+        <Position X="3.7000005" Y="-0.27310345" Z="-0.77037585"/>
+    </Point>
+    <Point Name="Point 328">
+        <Position X="3.0090168" Y="-0.33464071" Z="-0.49765"/>
+    </Point>
+    <Point Name="Point 329">
+        <Position X="1.8909838" Y="-0.31113571" Z="-0.60182351"/>
+    </Point>
+    <Point Name="Point 330">
+        <Position X="1.8909831" Y="-0.23507071" Z="-0.93892956"/>
+    </Point>
+    <Point Name="Point 331">
+        <Position X="3.0090175" Y="-0.21156451" Z="-1.043101"/>
+    </Point>
+    <Point Name="Point 332">
+        <Position X="4.0000005" Y="0.37084991" Z="-0.68422782"/>
+    </Point>
+    <Point Name="Point 333">
+        <Position X="3.3090172" Y="0.30931237" Z="-0.41150156"/>
+    </Point>
+    <Point Name="Point 334">
+        <Position X="2.1909833" Y="0.33281732" Z="-0.51567394"/>
+    </Point>
+    <Point Name="Point 335">
+        <Position X="2.1909833" Y="0.40888286" Z="-0.85277992"/>
+    </Point>
+    <Point Name="Point 336">
+        <Position X="3.3090174" Y="0.43238807" Z="-0.95695126"/>
+    </Point>
+    <Point Name="Point 337">
+        <Position X="4.0000005" Y="0.39593339" Z="-0.51530474"/>
+    </Point>
+    <Point Name="Point 338">
+        <Position X="3.3090169" Y="0.16178069" Z="-0.466277"/>
+    </Point>
+    <Point Name="Point 339">
+        <Position X="2.1909833" Y="0.25121894" Z="-0.48500291"/>
+    </Point>
+    <Point Name="Point 340">
+        <Position X="2.1909833" Y="0.54064769" Z="-0.54560667"/>
+    </Point>
+    <Point Name="Point 341">
+        <Position X="3.3090174" Y="0.630086" Z="-0.56433427"/>
+    </Point>
+    <Point Name="Point 342">
+        <Position X="4.0000029" Y="0.39593297" Z="0.51530534"/>
+    </Point>
+    <Point Name="Point 343">
+        <Position X="3.3090186" Y="0.16178036" Z="0.46627623"/>
+    </Point>
+    <Point Name="Point 344">
+        <Position X="2.1909845" Y="0.25121891" Z="0.48500305"/>
+    </Point>
+    <Point Name="Point 345">
+        <Position X="2.1909838" Y="0.54064703" Z="0.54560554"/>
+    </Point>
+    <Point Name="Point 346">
+        <Position X="3.3090184" Y="0.63008577" Z="0.56433123"/>
+    </Point>
+    <Point Name="Point 347">
+        <Position X="4.0000029" Y="0.37085012" Z="0.68422639"/>
+    </Point>
+    <Point Name="Point 348">
+        <Position X="3.3090196" Y="0.30931196" Z="0.41150144"/>
+    </Point>
+    <Point Name="Point 349">
+        <Position X="2.190985" Y="0.33281708" Z="0.51567298"/>
+    </Point>
+    <Point Name="Point 350">
+        <Position X="2.1909842" Y="0.40888226" Z="0.85277992"/>
+    </Point>
+    <Point Name="Point 351">
+        <Position X="3.3090198" Y="0.43238783" Z="0.95695078"/>
+    </Point>
+    <Point Name="Point 352">
+        <Position X="3.7000048" Y="-0.27310157" Z="0.7703777"/>
+    </Point>
+    <Point Name="Point 353">
+        <Position X="3.0090201" Y="-0.33463711" Z="0.49765205"/>
+    </Point>
+    <Point Name="Point 354">
+        <Position X="1.8909843" Y="-0.31113356" Z="0.60182446"/>
+    </Point>
+    <Point Name="Point 355">
+        <Position X="1.8909855" Y="-0.23506826" Z="0.93893194"/>
+    </Point>
+    <Point Name="Point 356">
+        <Position X="3.0090203" Y="-0.21156329" Z="1.0431035"/>
+    </Point>
+    <Point Name="Point 357">
+        <Position X="2.0824785" Y="-1.1119142" Z="0.35852051"/>
+    </Point>
+    <Point Name="Point 358">
+        <Position X="2.310493" Y="-1.0430473" Z="0.31545582"/>
+    </Point>
+    <Point Name="Point 359">
+        <Position X="1.7932266" Y="-0.84566832" Z="0.42430538"/>
+    </Point>
+    <Point Name="Point 360">
+        <Position X="1.7476972" Y="-0.78844619" Z="0.51140368"/>
+    </Point>
+    <Point Name="Point 361">
+        <Position X="1.9610355" Y="-0.96511185" Z="0.53948891"/>
+    </Point>
+    <Point Name="Point 362">
+        <Position X="1.9943802" Y="-1.7207501" Z="-0.39807117"/>
+    </Point>
+    <Point Name="Point 363">
+        <Position X="2.0902467" Y="-1.6565924" Z="-0.38450298"/>
+    </Point>
+    <Point Name="Point 364">
+        <Position X="1.5729835" Y="-1.5237045" Z="-0.20243442"/>
+    </Point>
+    <Point Name="Point 365">
+        <Position X="1.6595992" Y="-1.4921997" Z="-0.12281168"/>
+    </Point>
+    <Point Name="Point 366">
+        <Position X="1.8729368" Y="-1.6641879" Z="-0.17202109"/>
+    </Point>
+    <PatchC2 Name="Bezier C2 Surface 5 - Base 2" ShowControlPolygon="false" WrapDirection="None" RowSlices="9" ColumnSlices="9">
+        <Points>
+            <PointRef Name="Point 317" Row="0" Column="0"/>
+            <PointRef Name="Point 318" Row="0" Column="1"/>
+            <PointRef Name="Point 319" Row="0" Column="2"/>
+            <PointRef Name="Point 320" Row="0" Column="3"/>
+            <PointRef Name="Point 321" Row="0" Column="4"/>
+            <PointRef Name="Point 317" Row="0" Column="5"/>
+            <PointRef Name="Point 318" Row="0" Column="6"/>
+            <PointRef Name="Point 319" Row="0" Column="7"/>
+            <PointRef Name="Point 322" Row="1" Column="0"/>
+            <PointRef Name="Point 323" Row="1" Column="1"/>
+            <PointRef Name="Point 324" Row="1" Column="2"/>
+            <PointRef Name="Point 325" Row="1" Column="3"/>
+            <PointRef Name="Point 326" Row="1" Column="4"/>
+            <PointRef Name="Point 322" Row="1" Column="5"/>
+            <PointRef Name="Point 323" Row="1" Column="6"/>
+            <PointRef Name="Point 324" Row="1" Column="7"/>
+            <PointRef Name="Point 327" Row="2" Column="0"/>
+            <PointRef Name="Point 328" Row="2" Column="1"/>
+            <PointRef Name="Point 329" Row="2" Column="2"/>
+            <PointRef Name="Point 330" Row="2" Column="3"/>
+            <PointRef Name="Point 331" Row="2" Column="4"/>
+            <PointRef Name="Point 327" Row="2" Column="5"/>
+            <PointRef Name="Point 328" Row="2" Column="6"/>
+            <PointRef Name="Point 329" Row="2" Column="7"/>
+            <PointRef Name="Point 332" Row="3" Column="0"/>
+            <PointRef Name="Point 333" Row="3" Column="1"/>
+            <PointRef Name="Point 334" Row="3" Column="2"/>
+            <PointRef Name="Point 335" Row="3" Column="3"/>
+            <PointRef Name="Point 336" Row="3" Column="4"/>
+            <PointRef Name="Point 332" Row="3" Column="5"/>
+            <PointRef Name="Point 333" Row="3" Column="6"/>
+            <PointRef Name="Point 334" Row="3" Column="7"/>
+            <PointRef Name="Point 337" Row="4" Column="0"/>
+            <PointRef Name="Point 338" Row="4" Column="1"/>
+            <PointRef Name="Point 339" Row="4" Column="2"/>
+            <PointRef Name="Point 340" Row="4" Column="3"/>
+            <PointRef Name="Point 341" Row="4" Column="4"/>
+            <PointRef Name="Point 337" Row="4" Column="5"/>
+            <PointRef Name="Point 338" Row="4" Column="6"/>
+            <PointRef Name="Point 339" Row="4" Column="7"/>
+            <PointRef Name="Point 342" Row="5" Column="0"/>
+            <PointRef Name="Point 343" Row="5" Column="1"/>
+            <PointRef Name="Point 344" Row="5" Column="2"/>
+            <PointRef Name="Point 345" Row="5" Column="3"/>
+            <PointRef Name="Point 346" Row="5" Column="4"/>
+            <PointRef Name="Point 342" Row="5" Column="5"/>
+            <PointRef Name="Point 343" Row="5" Column="6"/>
+            <PointRef Name="Point 344" Row="5" Column="7"/>
+            <PointRef Name="Point 347" Row="6" Column="0"/>
+            <PointRef Name="Point 348" Row="6" Column="1"/>
+            <PointRef Name="Point 349" Row="6" Column="2"/>
+            <PointRef Name="Point 350" Row="6" Column="3"/>
+            <PointRef Name="Point 351" Row="6" Column="4"/>
+            <PointRef Name="Point 347" Row="6" Column="5"/>
+            <PointRef Name="Point 348" Row="6" Column="6"/>
+            <PointRef Name="Point 349" Row="6" Column="7"/>
+            <PointRef Name="Point 352" Row="7" Column="0"/>
+            <PointRef Name="Point 353" Row="7" Column="1"/>
+            <PointRef Name="Point 354" Row="7" Column="2"/>
+            <PointRef Name="Point 355" Row="7" Column="3"/>
+            <PointRef Name="Point 356" Row="7" Column="4"/>
+            <PointRef Name="Point 352" Row="7" Column="5"/>
+            <PointRef Name="Point 353" Row="7" Column="6"/>
+            <PointRef Name="Point 354" Row="7" Column="7"/>
+            <PointRef Name="Point 357" Row="8" Column="0"/>
+            <PointRef Name="Point 358" Row="8" Column="1"/>
+            <PointRef Name="Point 359" Row="8" Column="2"/>
+            <PointRef Name="Point 360" Row="8" Column="3"/>
+            <PointRef Name="Point 361" Row="8" Column="4"/>
+            <PointRef Name="Point 357" Row="8" Column="5"/>
+            <PointRef Name="Point 358" Row="8" Column="6"/>
+            <PointRef Name="Point 359" Row="8" Column="7"/>
+            <PointRef Name="Point 362" Row="9" Column="0"/>
+            <PointRef Name="Point 363" Row="9" Column="1"/>
+            <PointRef Name="Point 364" Row="9" Column="2"/>
+            <PointRef Name="Point 365" Row="9" Column="3"/>
+            <PointRef Name="Point 366" Row="9" Column="4"/>
+            <PointRef Name="Point 362" Row="9" Column="5"/>
+            <PointRef Name="Point 363" Row="9" Column="6"/>
+            <PointRef Name="Point 364" Row="9" Column="7"/>
+        </Points>
+    </PatchC2>
+    <Point Name="Point 130">
+        <Position X="-3.0455358" Y="0.88386726" Z="0"/>
+    </Point>
+    <Point Name="Point 131">
+        <Position X="-3.0999994" Y="0.79999959" Z="0.1"/>
+    </Point>
+    <Point Name="Point 132">
+        <Position X="-3.1544635" Y="0.71613288" Z="-8.742278e-09"/>
+    </Point>
+    <Point Name="Point 133">
+        <Position X="-3.0999994" Y="0.79999959" Z="-0.1"/>
+    </Point>
+    <Point Name="Point 134">
+        <Position X="-3.2236533" Y="1.0641328" Z="0"/>
+    </Point>
+    <Point Name="Point 135">
+        <Position X="-3.2674904" Y="0.97425485" Z="0.1"/>
+    </Point>
+    <Point Name="Point 136">
+        <Position X="-3.3113275" Y="0.8843745" Z="-8.742278e-09"/>
+    </Point>
+    <Point Name="Point 137">
+        <Position X="-3.2674904" Y="0.97425485" Z="-0.1"/>
+    </Point>
+    <Point Name="Point 138">
+        <Position X="-3.4977248" Y="1.1312348" Z="0"/>
+    </Point>
+    <Point Name="Point 139">
+        <Position X="-3.5684352" Y="1.0605234" Z="0.1"/>
+    </Point>
+    <Point Name="Point 140">
+        <Position X="-3.6391456" Y="0.98981237" Z="-8.742278e-09"/>
+    </Point>
+    <Point Name="Point 141">
+        <Position X="-3.5684352" Y="1.0605234" Z="-0.1"/>
+    </Point>
+    <Point Name="Point 142">
+        <Position X="-3.6519227" Y="1.3540264" Z="0"/>
+    </Point>
+    <Point Name="Point 143">
+        <Position X="-3.7515423" Y="1.3453094" Z="0.1"/>
+    </Point>
+    <Point Name="Point 144">
+        <Position X="-3.8511624" Y="1.3365949" Z="-8.742278e-09"/>
+    </Point>
+    <Point Name="Point 145">
+        <Position X="-3.7515423" Y="1.3453094" Z="-0.1"/>
+    </Point>
+    <Point Name="Point 146">
+        <Position X="-3.5656083" Y="1.6100093" Z="0"/>
+    </Point>
+    <Point Name="Point 147">
+        <Position X="-3.6622019" Y="1.6358901" Z="0.1"/>
+    </Point>
+    <Point Name="Point 148">
+        <Position X="-3.7587938" Y="1.6617715" Z="-8.742278e-09"/>
+    </Point>
+    <Point Name="Point 149">
+        <Position X="-3.6622019" Y="1.6358901" Z="-0.1"/>
+    </Point>
+    <Point Name="Point 150">
+        <Position X="-3.3182569" Y="1.7843397" Z="0"/>
+    </Point>
+    <Point Name="Point 151">
+        <Position X="-3.4001732" Y="1.8416965" Z="0.1"/>
+    </Point>
+    <Point Name="Point 152">
+        <Position X="-3.4820883" Y="1.8990554" Z="-8.742278e-09"/>
+    </Point>
+    <Point Name="Point 153">
+        <Position X="-3.4001732" Y="1.8416965" Z="-0.1"/>
+    </Point>
+    <Point Name="Point 154">
+        <Position X="-2.9648039" Y="1.8021629" Z="0"/>
+    </Point>
+    <Point Name="Point 155">
+        <Position X="-3.022162" Y="1.8840806" Z="0.1"/>
+    </Point>
+    <Point Name="Point 156">
+        <Position X="-3.0795212" Y="1.965992" Z="-8.742278e-09"/>
+    </Point>
+    <Point Name="Point 157">
+        <Position X="-3.022162" Y="1.8840806" Z="-0.1"/>
+    </Point>
+    <Point Name="Point 158">
+        <Position X="-2.5842915" Y="1.165558" Z="0"/>
+    </Point>
+    <Point Name="Point 159">
+        <Position X="-2.5669274" Y="1.2640382" Z="0.1"/>
+    </Point>
+    <Point Name="Point 160">
+        <Position X="-2.5495663" Y="1.3625211" Z="-8.742278e-09"/>
+    </Point>
+    <Point Name="Point 161">
+        <Position X="-2.5669274" Y="1.2640382" Z="-0.1"/>
+    </Point>
+    <Point Name="Point 162">
+        <Position X="-2.3380947" Y="1.1221436" Z="0"/>
+    </Point>
+    <Point Name="Point 163">
+        <Position X="-2.3207245" Y="1.220627" Z="0.1"/>
+    </Point>
+    <Point Name="Point 164">
+        <Position X="-2.30336" Y="1.3191084" Z="-8.742278e-09"/>
+    </Point>
+    <Point Name="Point 165">
+        <Position X="-2.3207245" Y="1.220627" Z="-0.1"/>
+    </Point>
+    <PatchC2 Name="Bezier C2 Surface 3" ShowControlPolygon="false" WrapDirection="None" RowSlices="3" ColumnSlices="3">
+        <Points>
+            <PointRef Name="Point 130" Row="0" Column="0"/>
+            <PointRef Name="Point 131" Row="0" Column="1"/>
+            <PointRef Name="Point 132" Row="0" Column="2"/>
+            <PointRef Name="Point 133" Row="0" Column="3"/>
+            <PointRef Name="Point 130" Row="0" Column="4"/>
+            <PointRef Name="Point 131" Row="0" Column="5"/>
+            <PointRef Name="Point 132" Row="0" Column="6"/>
+            <PointRef Name="Point 134" Row="1" Column="0"/>
+            <PointRef Name="Point 135" Row="1" Column="1"/>
+            <PointRef Name="Point 136" Row="1" Column="2"/>
+            <PointRef Name="Point 137" Row="1" Column="3"/>
+            <PointRef Name="Point 134" Row="1" Column="4"/>
+            <PointRef Name="Point 135" Row="1" Column="5"/>
+            <PointRef Name="Point 136" Row="1" Column="6"/>
+            <PointRef Name="Point 138" Row="2" Column="0"/>
+            <PointRef Name="Point 139" Row="2" Column="1"/>
+            <PointRef Name="Point 140" Row="2" Column="2"/>
+            <PointRef Name="Point 141" Row="2" Column="3"/>
+            <PointRef Name="Point 138" Row="2" Column="4"/>
+            <PointRef Name="Point 139" Row="2" Column="5"/>
+            <PointRef Name="Point 140" Row="2" Column="6"/>
+            <PointRef Name="Point 142" Row="3" Column="0"/>
+            <PointRef Name="Point 143" Row="3" Column="1"/>
+            <PointRef Name="Point 144" Row="3" Column="2"/>
+            <PointRef Name="Point 145" Row="3" Column="3"/>
+            <PointRef Name="Point 142" Row="3" Column="4"/>
+            <PointRef Name="Point 143" Row="3" Column="5"/>
+            <PointRef Name="Point 144" Row="3" Column="6"/>
+            <PointRef Name="Point 146" Row="4" Column="0"/>
+            <PointRef Name="Point 147" Row="4" Column="1"/>
+            <PointRef Name="Point 148" Row="4" Column="2"/>
+            <PointRef Name="Point 149" Row="4" Column="3"/>
+            <PointRef Name="Point 146" Row="4" Column="4"/>
+            <PointRef Name="Point 147" Row="4" Column="5"/>
+            <PointRef Name="Point 148" Row="4" Column="6"/>
+            <PointRef Name="Point 150" Row="5" Column="0"/>
+            <PointRef Name="Point 151" Row="5" Column="1"/>
+            <PointRef Name="Point 152" Row="5" Column="2"/>
+            <PointRef Name="Point 153" Row="5" Column="3"/>
+            <PointRef Name="Point 150" Row="5" Column="4"/>
+            <PointRef Name="Point 151" Row="5" Column="5"/>
+            <PointRef Name="Point 152" Row="5" Column="6"/>
+            <PointRef Name="Point 154" Row="6" Column="0"/>
+            <PointRef Name="Point 155" Row="6" Column="1"/>
+            <PointRef Name="Point 156" Row="6" Column="2"/>
+            <PointRef Name="Point 157" Row="6" Column="3"/>
+            <PointRef Name="Point 154" Row="6" Column="4"/>
+            <PointRef Name="Point 155" Row="6" Column="5"/>
+            <PointRef Name="Point 156" Row="6" Column="6"/>
+            <PointRef Name="Point 158" Row="7" Column="0"/>
+            <PointRef Name="Point 159" Row="7" Column="1"/>
+            <PointRef Name="Point 160" Row="7" Column="2"/>
+            <PointRef Name="Point 161" Row="7" Column="3"/>
+            <PointRef Name="Point 158" Row="7" Column="4"/>
+            <PointRef Name="Point 159" Row="7" Column="5"/>
+            <PointRef Name="Point 160" Row="7" Column="6"/>
+            <PointRef Name="Point 162" Row="8" Column="0"/>
+            <PointRef Name="Point 163" Row="8" Column="1"/>
+            <PointRef Name="Point 164" Row="8" Column="2"/>
+            <PointRef Name="Point 165" Row="8" Column="3"/>
+            <PointRef Name="Point 162" Row="8" Column="4"/>
+            <PointRef Name="Point 163" Row="8" Column="5"/>
+            <PointRef Name="Point 164" Row="8" Column="6"/>
+        </Points>
+    </PatchC2>
+</Scene>

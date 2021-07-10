@@ -1,0 +1,128 @@
+﻿<UserControl x:Class="CADawid.View.TransformPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:wpfToolExt="clr-namespace:Xceed.Wpf.Toolkit;assembly=Xceed.Wpf.Toolkit"
+             xmlns:local="clr-namespace:CADawid.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" TextBlock.FontSize="15" 
+                             TextBlock.FontWeight="DemiBold" HorizontalContentAlignment="Center"
+                             BorderThickness="1" VerticalContentAlignment="Center">
+            Translation
+        </Label>
+        <Grid Grid.Row="1" Name="Translation" IsEnabled="False">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0" TextBlock.FontSize="10" 
+                                 TextBlock.FontWeight="DemiBold" HorizontalContentAlignment="Center"
+                                 BorderThickness="1" VerticalContentAlignment="Center">
+                X:
+            </Label>
+            <wpfToolExt:DoubleUpDown Grid.Column="1" FormatString="F2" ValueChanged="DoubleUpDown_ValueChanged"
+                                                     Increment="0.01" Value="{Binding SelectedObject.TranslationV.X, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            <Label Grid.Column="2" TextBlock.FontSize="10" 
+                                 TextBlock.FontWeight="DemiBold" HorizontalContentAlignment="Center"
+                                 BorderThickness="1" VerticalContentAlignment="Center">
+                Y:
+            </Label>
+            <wpfToolExt:DoubleUpDown Grid.Column="3" FormatString="F2" ValueChanged="DoubleUpDown_ValueChanged"
+                                                     Increment="0.01" Value="{Binding SelectedObject.TranslationV.Y, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            <Label Grid.Column="4" TextBlock.FontSize="10" 
+                                 TextBlock.FontWeight="DemiBold" HorizontalContentAlignment="Center"
+                                 BorderThickness="1" VerticalContentAlignment="Center">
+                Z:
+            </Label>
+            <wpfToolExt:DoubleUpDown Grid.Column="5" FormatString="F2" ValueChanged="DoubleUpDown_ValueChanged"
+                                                     Increment="0.01" Value="{Binding SelectedObject.TranslationV.Z, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+        </Grid>
+        <Label Grid.Row="2" TextBlock.FontSize="15" 
+                             TextBlock.FontWeight="DemiBold" HorizontalContentAlignment="Center"
+                             BorderThickness="1" VerticalContentAlignment="Center">
+            Rotation
+        </Label>
+        <Grid Grid.Row="3" Name="Rotation" IsEnabled="False">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0" TextBlock.FontSize="10" 
+                                 TextBlock.FontWeight="DemiBold" HorizontalContentAlignment="Center"
+                                 BorderThickness="1" VerticalContentAlignment="Center">
+                X:
+            </Label>
+            <wpfToolExt:DoubleUpDown Grid.Column="1" FormatString="F2" ValueChanged="DoubleUpDown_ValueChanged"
+                                                     Increment="0.01" Value="{Binding SelectedObject.RotationV.X}"/>
+            <Label Grid.Column="2" TextBlock.FontSize="10" 
+                                 TextBlock.FontWeight="DemiBold" HorizontalContentAlignment="Center"
+                                 BorderThickness="1" VerticalContentAlignment="Center">
+                Y:
+            </Label>
+            <wpfToolExt:DoubleUpDown Grid.Column="3" FormatString="F2" ValueChanged="DoubleUpDown_ValueChanged"
+                                                     Increment="0.01" Value="{Binding SelectedObject.RotationV.Y}"/>
+            <Label Grid.Column="4" TextBlock.FontSize="10" 
+                                 TextBlock.FontWeight="DemiBold" HorizontalContentAlignment="Center"
+                                 BorderThickness="1" VerticalContentAlignment="Center">
+                Z:
+            </Label>
+            <wpfToolExt:DoubleUpDown Grid.Column="5" FormatString="F2" ValueChanged="DoubleUpDown_ValueChanged"
+                                                     Increment="0.01" Value="{Binding SelectedObject.RotationV.Z}"/>
+        </Grid>
+        <Label Grid.Row="4" TextBlock.FontSize="15" 
+                             TextBlock.FontWeight="DemiBold" HorizontalContentAlignment="Center"
+                             BorderThickness="1" VerticalContentAlignment="Center">
+            Scale
+        </Label>
+        <Grid Grid.Row="5" Name="Scale" IsEnabled="False">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0" TextBlock.FontSize="10" 
+                                 TextBlock.FontWeight="DemiBold" HorizontalContentAlignment="Center"
+                                 BorderThickness="1" VerticalContentAlignment="Center">
+                X:
+            </Label>
+            <wpfToolExt:DoubleUpDown Grid.Column="1" FormatString="F2" ValueChanged="DoubleUpDown_ValueChanged"
+                                                     Increment="0.01" Value="{Binding SelectedObject.ScaleV.X}"/>
+            <Label Grid.Column="2" TextBlock.FontSize="10" 
+                                 TextBlock.FontWeight="DemiBold" HorizontalContentAlignment="Center"
+                                 BorderThickness="1" VerticalContentAlignment="Center">
+                Y:
+            </Label>
+            <wpfToolExt:DoubleUpDown Grid.Column="3" FormatString="F2" ValueChanged="DoubleUpDown_ValueChanged"
+                                                     Increment="0.01" Value="{Binding SelectedObject.ScaleV.Y}"/>
+            <Label Grid.Column="4" TextBlock.FontSize="10" 
+                                 TextBlock.FontWeight="DemiBold" HorizontalContentAlignment="Center"
+                                 BorderThickness="1" VerticalContentAlignment="Center">
+                Z:
+            </Label>
+            <wpfToolExt:DoubleUpDown Grid.Column="5" FormatString="F2" ValueChanged="DoubleUpDown_ValueChanged"
+                                                     Increment="0.01" Value="{Binding SelectedObject.ScaleV.Z}"/>
+        </Grid>
+    </Grid>
+</UserControl>

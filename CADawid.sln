@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CADawid", "CADawid\CADawid.csproj", "{D659B913-E964-4915-8969-A0058E813A28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D659B913-E964-4915-8969-A0058E813A28}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{D659B913-E964-4915-8969-A0058E813A28}.Debug|Any CPU.Build.0 = Debug|x64
+		{D659B913-E964-4915-8969-A0058E813A28}.Release|Any CPU.ActiveCfg = Release|x64
+		{D659B913-E964-4915-8969-A0058E813A28}.Release|Any CPU.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79C89489-4FA7-4DF3-8887-7877515F7863}
+	EndGlobalSection
+EndGlobal
