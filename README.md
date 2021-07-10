@@ -1,17 +1,5 @@
-![title](./website/img/title.png)
+Projekt został przygotowany w ramach przedmiotu "Modelowanie Geometryczne" na studiach magisterskich specjalizacji "Projektowanie Systemów CAD/CAM" wydziału MiNI Politechniki Warszawskiej.
 
-Repozytorium zawiera pliki źródłowe gry stworzonej w ramach jednego z przedmiotów na studiach magisterskich na specjalizacji Projektowanie Systemów CAD/CAM wydziału MiNI Politechniki Warszawskiej. Została ona przygotowana w kilkuosobowym zespole. 
+Jest to wycinek funkcjonalności programu CADowskiego. Umożliwia modelowanie przy pomocy krzywych oraz płatów (C0 oraz C2). Screenshot poniżej przedstawia zamodelowaną przy jego pomocy rybę również stanowiącą element zaliczenia przedmiotu.
 
-Byłem osobą odpowiedzialną za sporą część modeli 3D (bez teksturowania) - w tym model głównego bohatera: kowboja lisa z kosmosu. Dodatkowo, jak każdy członek zespołu, miałem swoje zadania związane z gameplayem i mechanikami. 
-
-Dla poprawy imersji przygotowałem również klimatyczne elementy takie jak specjalny shader dla pustyni, surrealistyczne oczko wodne, efekty cząsteczkowe mgły, płomieni i laserów czy otaczające lokację góry.
-
-Poniżej zostały przedstawione grafiki mające reklamować przygotowaną grę.
-
-![waves](./website/img/waves.jpg)
-
-![weapon](./website/img/weapon.jpg)
-
-![points](./website/img/points.jpg)
-
-![upgrades](./website/img/upgrades.jpg)
+![model](./img/model.png)
