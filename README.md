@@ -34,7 +34,7 @@ The screenshot below presents the model of a fish created using the CAD modellin
 
 The photograph below showcases the wooden model of the fish, a tangible product of the CAD modelling functionality.
 
-![milled](./img/milled.png)
+![milled](./img/milled.jpg)
 
 ## Usage & Contribution
 
